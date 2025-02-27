@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* first paragraph */ 
+
+.parallax-1 {
+    width: 100%;
+    height: 600px;
+    background: url(
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGxAvG3u2T2ESM8J_TxqYCIdzLC0V4_wcsfw&s');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.parallax-1 h2 {
+    position: relative;
+    top:200px;
+    width:400px;
+    height: 30px;
+    left:550px;
+    padding:10px;
+  background-color: rgb(253, 252, 252);
+    color: rgb(30, 16, 16);
+    border-radius: 34px;
+    text-align: center;
+    
+    
+}
+h2:hover {
+    transform:scale(1.1);
+}
+a {
+    text-decoration: none;
+}
+
+
+.parallax-2 {
+    width: 100%;
+    height: 600px;
+    background: url("https://blogger.googleusercontent.com/img/a/AVvXsEjFXKmIX76hZoQMA8-LwnNTFiTWQpGl6zJE3cK1cyQ3uktqhvVdFI9J6SVF-U9SEC1pGEr_kCJr9LLaO8jmy-2npqz4lEg-puEUYRxpyj3yL1pGAFceqDSZB_xfK87GghwgKgKO01N4c2jUxSITcUqEyYXKHzrXNaUPwKJicQL1uBObsN3HMINSUYPmD_kW=s1120-rw");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   
+}
+
+
+.parallax-2 h2 {
+    margin: auto;
+    position: relative;
+    left: 500x;
+    top: 300px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana;
+}
+
+.para-1 {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+
+
+.para-2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 17px;
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+}
