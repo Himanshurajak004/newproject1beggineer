@@ -1,0 +1,136 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+head , body {
+    height : 100%;
+    width : 100%;
+    background-image: url(https://images.unsplash.com/photo-1548266652-99cf27701ced?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+.card {
+   height : 600px;
+   width : 30%;
+   background: linear-gradient(135deg,#00feba,#5b548a);
+   opacity: .9;
+   position: relative;
+   left : 35%;
+   margin-top : 60px;
+   border-radius: 20px;
+}
+input {
+    height : 50px;
+    width : 70%;
+    flex: 1;
+    margin-left : 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    padding-left : 30px;
+}
+.but {
+    position: relative;
+    top : 20px;
+    left : 83%;
+}
+.but {
+    margin-top : -40px;
+
+}
+button {
+    height : 50px;
+    width : 50px;
+    border : none;
+    outline : none;
+    background: transparent;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+input {
+    position: relative;
+    top : 30px;
+    flex : 1;
+    border : none;
+    font-size: 18px;
+    background: #ebfffc;
+}
+img {
+    width : 17px;
+}
+
+.weather-icon {
+    width : 40%;
+    height: 40%;
+    margin-left : 29%;
+    padding-top : 10px;
+}
+.temp , .city {
+    color : white ;
+    text-align: center;
+    font-size: 1.9rem;
+}
+.temp {
+    font-size: 2.9rem;
+}
+.col,.col2 {
+    color : white;
+    margin-left : 40px;
+
+}   
+ .humidity-icon {
+    height : 10%;
+    width : 7%;
+    position: relative;
+    top : 6.6px;
+
+}
+
+.wind-icon {
+    height : 10%;
+    width : 13%;
+    
+}
+
+.col {
+    margin-top : 40px;
+}
+.col , p {
+    font-weight: 100;
+    display: flex;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.col2 {
+    position: relative;
+    left : 59%;
+    width : 50%;
+    bottom : 36px;
+    display: flex;
+}
+.humi {
+    font-size: .9rem;
+}
+.windi {
+    font-size: .9rem;  
+}
+.col2 , p {
+    font-weight: 100;
+
+}
+.wind-icon {
+    margin-top : 5px;
+}
+.col , .col2 {
+    margin-top : 30px;
+}
+.col {
+    position: relative;
+    top : 50px;
+}
+.col2 {
+    margin-top : 50px;
+}
